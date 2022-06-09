@@ -2,7 +2,7 @@
 Project Odin - Rock Paper Scissors project
 
 A game of rock paper scissors played against the computer for five rounds.
-This project will contain 3 functions: game(), computerPlay(), and playRound().
+This project will contain 3 functions: <b>game()</b>, <b>computerPlay()</b>, and <b>playRound()</b>.
 
 <b>game()</b> - Will prompt the player with a window once they are directed to the page. 
 This window will begin the game by asking the player to choose rock, paper, or scissors.

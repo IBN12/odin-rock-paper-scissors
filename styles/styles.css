@@ -1,0 +1,12 @@
+/* body - The entire body of the page. */
+body{
+    background-color: beige;
+}
+
+/* player-btn - Rock, paper, scissor buttons for the player to select. */
+.player-btn{
+    background-color:#ACFFFF;
+}
+.player-btn:hover{
+    background-color:#25FFFF;
+}

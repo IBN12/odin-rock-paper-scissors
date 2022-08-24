@@ -3,10 +3,46 @@
     <head>
         <title>Project: Rock Paper Scissors</title>
         <meta charset="UTF-8">
+        <script src="./javascript/javascript.js" defer></script>
+        <link rel="stylesheet" href="./styles/styles.css">
     </head>
     
     <body>
-    </body>
+        <!-- Task 1: Create three buttons, one for each selection. Add an event listener to 
+        the buttons that call your playRound function with the correct
+        playerSelection every time a button is clicked. (you can keep the
+        console.logs for this step)-->
+        <h1>Rock Paper Scissors Baby!</h1>
+        <hr/>
 
-    <script src="./javascript/javascript.js"></script>
+        <!--Rock Paper Scissors Section-->
+        <div id="rps-section">
+
+            <!--Rounds Section-->
+            <div id="game-rounds">
+                No games played yet
+            </div>
+
+            <h3>Please choose Rock, Paper, or Scissors.</h3>
+
+            <button id="rock-btn" class="player-btn">Rock</button>
+            <button id="paper-btn" class="player-btn">Paper</button>
+            <button id="scissors-btn" class="player-btn">scissors</button>
+
+            <!--Player and computer choice-->
+            <div id="player-comp-choice">
+                
+            </div> 
+
+            <!--Score Section-->
+            <div id="game-score">
+
+            </div>
+
+            <!--Game Result-->
+            <div id="game-result">
+                
+            </div>
+        </div>
+    </body>
 </html>
